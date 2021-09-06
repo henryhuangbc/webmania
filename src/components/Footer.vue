@@ -3,14 +3,13 @@
     <v-col class="text-center" cols="12">
       <img width="16" height="12" class="locale" v-for="(locale) in locales" :key="locale.code" @click="$i18n.locale = locale.code" :src="locale.image">
       {{ $t('footer.version') }}
-      <strong>Beta 4.0</strong>
+      <strong>Alpha 1.0</strong>
       {{ ' — ' }}
       {{ $t('footer.madeby') }}
-      <strong>Rodrig0v</strong>
+      <strong>Henry is cool?</strong>
       {{ ' — ' }}
-      <a href="https://discord.gg/uncMv398ew" target="_blank"><strong>{{ $t('footer.discord') }}</strong></a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><strong>{{ $t('footer.discord') }}</strong></a>
       {{ ' — ' }}
-      <a href="https://www.paypal.com/donate?hosted_button_id=J4HKPQP6MPLX2" target="_blank"><strong>{{ $t('footer.donate') }}</strong></a>
     </v-col>
   </v-footer>
 </template>
